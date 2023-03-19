@@ -7,17 +7,17 @@ import NewsFeed from './components/news-feed';
 import reportWebVitals from './reportWebVitals';
 import NavBar from './components/navbar';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <><div className='row'>
-    <div className='col-12'><NavBar /> </div>
+    <div className='col-12'><NavBar/> </div>
   </div>
   <div className='row'>
       <div className='col-sm'></div>
       <div className='col-sm '> <NewsFeed /> </div>
       <div className='col-sm'></div>
     </div></>
-
   );
 
 // If you want to start measuring performance in your app, pass a function

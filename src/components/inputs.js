@@ -6,8 +6,8 @@ import '../index.css';
             return(
             <div>
             <form className='p-4'>
-                <input type='email' name='email' placeholder='email' required/> 
-                <input type='password' name='pwd' placeholder='password' required/>
+                <input type='email' name='email' placeholder='Email' required/> 
+                <input type='password' name='pwd' placeholder='Password' className='input2' required/>
             </form>
         </div>
             )

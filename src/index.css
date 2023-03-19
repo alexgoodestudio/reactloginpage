@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #153372;
+  background-image: url(./components/gradient2.png);
+  
 }
 
 code {
@@ -20,7 +21,7 @@ h3{
 
 .postBorder{
 border-style: solid;
-border-color: #000000;
+border-color: #ffffff;
 background-color: #ffffff;
 text-align: center;
 border-radius: 20px;
@@ -29,7 +30,7 @@ color: #153372;
 }
 
 .navbar{
-  background-color: #839ed8;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -38,7 +39,7 @@ color: #153372;
   border-radius: 7px;
   padding: 5px;
   width: 100px;
-  background-color: #dde7ff;
+  background-color: rgb(255, 255, 255);
   border: #153372;
 
 
@@ -50,7 +51,7 @@ color: #153372;
   margin-right: 28px;
   padding: 5px;
   width: 100px;
-  background-color: #dde7ff;
+  background-color: rgb(255, 255, 255);
   border: #153372;
 
 }
@@ -60,7 +61,7 @@ color: #153372;
   margin-right: 28px;
   padding: 5px;
   width: 100px;
-  background-color: #dde7ff;
+  background-color: rgb(255, 255, 255);
   border: #153372;
 
 
@@ -78,8 +79,15 @@ h4{
   border-radius: 7px;
   padding: 5px;
   width: 100px;
-  background-color: #dde7ff;
+  background-color: rgb(255, 255, 255);
   border: #153372;
 
 
+}
+.lock{
+  height: 40px;
+  margin-left: 40px;
+}
+.input2{
+  margin-left: 5px;
 }
